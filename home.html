@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payoo | Home</title>
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="min-h-screen max-w-md bg-base-200 mx-auto">
+    <section class="mb-5">
+
+        <div class="navbar bg-base-100 shadow-sm">
+       <div class="flex-1 flex gap-2">
+         <div class="w-[50px] ">
+     
+             <img src="./assets/logo.png" alt="">
+         </div>
+         <div>
+             <span class="font-extrabold text-lg">$45000</span>
+             <p class="text-[#808080] opacity-50">available Balance</p>
+         </div>
+       </div>
+       <div class="flex-none">
+         <button id="log-out-btn" class="btn btn-neutral btn-ghost">
+           <i class="fa-solid fa-arrow-right-from-bracket"></i> 
+           <p class="text-xs">Log Out</p>
+         </button>
+       </div>
+     </div>
+    </section>
+
+    <section class="w-11/12 mx-auto space-y-5">
+       <h2 class="font-bold text-2xl w-11/12 ">welcome to pay<span>oo</span></h2>
+       <p>Enjoy easy and convenient financial services with us. Cashout charge is low and </p>
+
+       <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
+        <button id="add-money" class=" btn py-10 flex flex-col">
+            <img src="./assets/opt-1.png" alt="">
+            <p id="text">Add Money</p>
+        </button>
+        <button class=" btn py-10 flex flex-col">
+            <img src="./assets/opt-2.png" alt="">
+            <p>Cashout</p>
+        </button>
+        <button class=" btn py-10 flex flex-col">
+            <img src="./assets/opt-3.png" alt="">
+            <p>transfer Money</p>
+        </button>
+        <button class=" btn py-10 flex flex-col">
+            <img src="./assets/opt-4.png" alt="">
+            <p>Get Bonus</p>
+        </button>
+        <button class=" btn py-10 flex flex-col">
+            <img src="./assets/opt-5.png" alt="">
+            <p>Pay Bill</p>
+        </button>
+        <button class=" btn py-10 flex flex-col">
+            <img src="./assets/opt-6.png" alt="">
+            <p>transactions</p>
+        </button>
+       </div>
+    </section>
+
+    <script src="./script/log-out.js"></script>
+    <script src="./script/add-money.js"></script>
+</body>
+</html>
